@@ -19,7 +19,11 @@ public class Practice {
 		
 		System.out.println(parseInt);
 		
-
+		int number3 = 155554;
+		String number3conv = number3+"";
+		String replace3 = number3conv.replace("5", "");
+		int parseInt3 = Integer.parseInt(replace3);
+		System.out.println(parseInt3);
 		
 		
 		

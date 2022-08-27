@@ -28,5 +28,9 @@ public class Practice {
 		int parseInt3 = Integer.parseInt(replace3);
 		System.out.println(parseInt3);
 	
-		
+		int number4 = 123456;
+		String number4conv = number4+"";
+		String replace4 = number4conv.replace("3", "");
+		int parse4 = Integer.parseInt(replace4);
+		System.out.println(parse4);
 	}}
